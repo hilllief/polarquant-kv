@@ -1,0 +1,55 @@
+# Build artifacts
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.pyd
+*.exp
+*.lib
+*.ptx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Hypothesis test database
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.kiro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (too large)
+models/
+*.gguf
+
+# llama.cpp clone and build
+integration/llama.cpp/
+integration/build_*.bat
+integration/build_*.txt
+integration/stderr*.txt
+integration/stdout*.txt
+integration/out_*.txt
+integration/test_*.txt
+integration/dist/
+integration/test-polarquant.exe
+
+# Temp files
+*.log
+*.tmp
+
+# Large archive files
+*.rar
+*.zip
+*.7z
